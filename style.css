@@ -120,16 +120,17 @@ body {
 }
 
 /* ----- DESIGN RESPONSIVE ----- */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
   .temoignages-list {
     flex-direction: column;
     align-items: center;
-  }
+}
+  
 
   .temoignage {
     max-width: 90%;
   }
-=======
+
 /* Section Contact */
 #contact {
   background-color: #f9f9f9;
@@ -180,4 +181,51 @@ body {
 
 #contact-form button:hover {
   background-color: #434190;
+}
+/* ----- SECTION A PROPOS ----- */
+.a-propos {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.a-propos h2 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.a-propos h3 {
+  color: #444;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.a-propos p {
+  color: #666;
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+/* ----- PIED DE PAGE ----- */
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+.footer a {
+  color: #ffcc00;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
